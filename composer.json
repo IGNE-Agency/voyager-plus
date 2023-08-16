@@ -1,12 +1,12 @@
 {
-    "name": "tcg/voyager",
+    "name": "igne/voyager",
     "description": "A Laravel Admin Package for The Control Group to make your life easier and steer your project in the right direction",
     "keywords": ["laravel", "admin", "panel"],
     "license": "MIT",
-    "homepage": "https://voyager.devdojo.com/",
+    "homepage": "https://github.com/igne-agency/voyager-plus",
     "support": {
-        "issues": "https://github.com/the-control-group/voyager/issues",
-        "source": "https://github.com/the-control-group/voyager"
+        "issues": "https://github.com/igne-agency/voyager-plus/issues",
+        "source": "https://github.com/igne-agency/voyager-plus"
     },
     "authors": [
         {
