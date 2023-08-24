@@ -13,7 +13,7 @@ body:
       description: The full Laravel version including minor and patch version
       placeholder: ex. 8.2.2
     validations:
-      required: true
+      required: false
   - type: input
     id: php_version
     attributes:
@@ -21,7 +21,7 @@ body:
       description: Your PHP version
       placeholder: ex. 7.4.21
     validations:
-      required: true
+      required: false
   - type: input
     id: voyager_version
     attributes:
@@ -29,7 +29,7 @@ body:
       description: The full Voyager version including minor and patch version. When using the dev-version please attach the commit-id (1.x-dev#abcdef)
       placeholder: ex. 1.4.3
     validations:
-      required: true
+      required: false
   - type: input
     id: database_version
     attributes:
@@ -37,7 +37,7 @@ body:
       description: Your database type and version
       placeholder: ex. MySQL 8.0
     validations:
-      required: true
+      required: false
   - type: textarea
     id: description
     attributes:
@@ -51,14 +51,14 @@ body:
       label: Steps to reproduce
       description: Steps to reproduce the behavior
     validations:
-      required: true
+      required: false
   - type: textarea
     id: expected_behaviour
     attributes:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: screenshots
     attributes:
